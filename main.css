@@ -1,0 +1,84 @@
+header {
+    background-image: url(../Portfolio/Assets/Space-X.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    column-count: 2;
+    display: flex; 
+}
+.column {
+    float: left;
+}
+.name {
+    float:left;
+    width: 80%;
+    color: white;
+    margin: 15px;
+}
+.name li{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.picture img {
+    float: right;
+    border-radius: 100px;
+    border: 2px solid blue;
+    margin: 15px;
+}
+.interests {
+    background-color: blue;
+    color:silver;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.links li {
+    display:inline;
+    font-size: 1.5em;
+    color: yellow;
+    margin: 15px;
+    padding: 10px;
+}
+body{
+    background-color: silver;
+    background-size: cover;
+
+}
+.aboutMe {
+    font-size: 1.3em;
+    border: 4px dashed black;
+    background-color: white;
+    padding: 10px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.project {
+    color: blue;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.card img {
+    width:80%;  
+    margin: 3%; 
+}
+.card {
+    border: 2px solid blue;
+    border-radius: 40px;
+    margin: 2%; 
+    align-items: center;   
+}
+.card-title {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    padding: 2%;
+}
